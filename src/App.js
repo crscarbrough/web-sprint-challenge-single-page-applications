@@ -7,8 +7,12 @@ const App = () => {
       <header>
         <h1>Pizza Pizza</h1>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/">Order Pizza!</Link>
+          <Link id="order-pizza" to="/">
+            Home
+          </Link>
+          <Link id="pizza-form" to="/">
+            Order Pizza!
+          </Link>
         </nav>
       </header>
       <p>You can remove this code and create your own header</p>
