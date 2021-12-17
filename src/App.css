@@ -1,10 +1,9 @@
-.App {
-  text-align: center;
+* {
+  background: rgb(139, 123, 110);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,26 +12,51 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  margin-top: 8px;
+  width: 70%;
+  box-shadow: 15in;
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background: rgb(143, 134, 134);
+  color: rgb(226, 222, 213);
+  font-size: 1em;
+  border-radius: 2%;
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+input {
+  background-color: rgb(224, 216, 205);
+}
+
+#size-dropdown {
+  background-color: rgb(224, 216, 205);
+}
+
+textarea {
+  background-color: rgb(224, 216, 205);
+}
+
+.instructions {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 300px;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#order-button {
+  margin-top: 15px;
 }
